@@ -28,6 +28,8 @@ public class JobData {
      * @param field The column to retrieve values from
      * @return List of all of the values of the given field
      */
+
+
     public static ArrayList<String> findAll(String field) {
 
         // load data, if not already loaded
@@ -83,6 +85,8 @@ public class JobData {
 
         return jobs;
     }
+
+
 
     /**
      * Read in data from a CSV file and store it in a list
